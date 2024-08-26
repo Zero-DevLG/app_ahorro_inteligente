@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "ahorro-inteligente_b",
-    "slug": "ahorro-inteligente_b",
+    "slug": "ahorrointelligente",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon/icono_app.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon/icono_app.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.luisgdev.ahorrointelligente"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f79d6666-efb1-4964-a5a8-e06c4530363a"
+      }
+    },
+    "owner": "luisgdev"
   }
 }
