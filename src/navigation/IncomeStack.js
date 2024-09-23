@@ -1,18 +1,19 @@
+
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { DashboardScreen } from '../screens/Dashboard/DashboardScreen';
 import { screen } from '../utils'
+import { IncomeScreen } from '../screens/Income/IncomeScreen';
 
 
 
 const Stack = createNativeStackNavigator();
 
-export function DashboardStack(){
+export function IncomeStack(){
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name={screen.dashboard.Dashboard}
-                component={DashboardScreen}    
-                option={{  title: "Dashboard"  }}   
+                name={screen.income.income}
+                component={ IncomeScreen}    
+                option={{  title: "Mis ingresos"  }}   
             />
              
         </Stack.Navigator>

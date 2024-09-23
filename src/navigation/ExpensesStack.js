@@ -1,18 +1,18 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { DashboardScreen } from '../screens/Dashboard/DashboardScreen';
+import { ExpensesScreen } from '../screens/Expenses/ExpensesScreen';
 import { screen } from '../utils'
 
 
 
 const Stack = createNativeStackNavigator();
 
-export function DashboardStack(){
+export function ExpensesStack(){
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name={screen.dashboard.Dashboard}
-                component={DashboardScreen}    
-                option={{  title: "Dashboard"  }}   
+                name={screen.expenses.expenses}
+                component={ExpensesScreen}    
+                option={{  title: "Mis gastos"  }}   
             />
              
         </Stack.Navigator>

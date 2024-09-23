@@ -1,25 +1,32 @@
 
 const dashboardStack = {
-    tab: "Tablero"
+    tab: "Tablero",
+    Dashboard: "Tablero Principal"
 }
 
 const goalsdStack = {
-    tab: "Metas"
+    tab:        "Metas",
+    Goals:      "Mis metas",
+    addGoals:   "Nueva meta"
 }
 
 
 const accountStack = {
-    tab: "Mi cuenta"
+    tab: "Mi cuenta",
+    account: "Mi perfil",
+    login: "Login"
 }
 
 
 const expensesStack = {
-    tab: "Mis Gastos"
+    tab: "Mis Gastos",
+    expenses: "Mis gastos"
 }
 
 
 const incomeStack = {
-    tab: "Mis Ingresos"
+    tab: "Mis Ingresos",
+    income: "Mis ingresos"
 }
 
 export const screen = {
